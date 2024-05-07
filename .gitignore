@@ -1,5 +1,7 @@
 .gradle
 .ignore
+.idea/
+**/main/resources/application*
 
 build/
 !gradle/wrapper/gradle-wrapper.jar
@@ -7,10 +9,10 @@ build/
 !**/src/test/**/build/
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+#.idea/modules.xml
+#.idea/jarRepositories.xml
+#.idea/compiler.xml
+#.idea/libraries/
 *.iws
 *.iml
 *.ipr
