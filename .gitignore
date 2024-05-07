@@ -1,7 +1,7 @@
 .gradle
 .ignore
 .idea/
-**/main/resources/application*
+#**/main/resources/application*
 
 build/
 !gradle/wrapper/gradle-wrapper.jar
